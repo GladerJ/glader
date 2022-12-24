@@ -1,0 +1,24 @@
+.capation{
+    font-size: 60px;
+    color: blue;
+    text-align: center;
+}
+.search{
+    height: 35px;
+    width: 500px;
+    font-size: 20px;
+}
+.main{
+    text-align: center;
+    margin: 0 auto;
+}
+.submit{
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+}
+.usewhat{
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+}
