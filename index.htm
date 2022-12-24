@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack起始页</title>
+    <link rel="stylesheet" type="text/css" href="css/dec.css">
+    <script src="js/n1.js"> </script>
+</head>
+<body background="images/1.jpg">
+    <p class="capation">Jack起始页</p>
+    
+    <div class="main">
+        <select id="usewhat" name="yinqing" class = "usewhat">
+            <option value="1" selected="selected">百度</option>
+            <option value="2">搜狗</option>
+            <option value="3">必应</option>
+            <option value="4">360</option>
+        </select>
+
+        <input id="text" class="search" onkeydown="if(event.keyCode == 13){load();}"/>
+        <input class="submit" value="搜索" onclick="load()" type="button"/>
+    </div>
+    <p align="center">updated by @jack</p>
+</body>
+</html>
